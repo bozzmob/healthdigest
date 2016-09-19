@@ -1,0 +1,7 @@
+- getCategoriesList (get all list, currently it shows up per UserID)
+- getTrendingPosts
+- TopKeywordSearches & TrendingKeywordSearches
+- getUserSearched & setUserSearches
+- Gamification: Initially complete choosing categories & tutorials to get points. Polls, Posts, Comments. You post you get points based on number of likes(1 point) & favorites(2.5 points). For polls(number of interactions/votes * 1). Earn badges, unlock more as you go.
+- Community shared information. By Community & For Community.
+- Shop: To redeem points to valuable products, or Premium Subscription.

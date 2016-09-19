@@ -1,0 +1,4 @@
+db.users.insert({"email":"sat@gmail.com","profile_pic":"https://picklehosting.com/images/user-testimonial-3.jpg","registered_date":"2016-8-19 21:26:17Z","last_login":"2016-8-19 22:26:17Z","total_login_counts":"22","favorite_categories":["food","exercise","stress","news"],"favorites":["57b0396def8fb51485566092","57b03986ef8fb51485566093"]})
+
+
+db.users.insert({"email":"indiana@gmail.com","profile_pic":"http://www.bestpicsstore.com/wp-content/uploads/2012/08/facebook-profile-pictures2.jpg","registered_date":"2016-8-12 21:26:17Z","last_login":"2016-8-14 21:26:17Z","total_login_counts":"12","favorite_categories":["mental","exercise","stress","depression"],"favorites":["57b039a5ef8fb51485566094","57b0396def8fb51485566092","57b03986ef8fb51485566093"]})

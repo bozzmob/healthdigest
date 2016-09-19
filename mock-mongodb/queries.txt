@@ -1,0 +1,23 @@
+Update
+
+db.fitness.update({_id:ObjectId("57b821e0e61f5af2ccf843e0")},{$set:{"likes_count":2,"liked_by":[ "57b81e70ef8fb51485566095","57b81ed5ef8fb51485566096"]}})
+
+db.living.update({_id:ObjectId("57ab5e32267477197c7f661f")},{$set:{"likes_count":2,"liked_by":[ "57b81e70ef8fb51485566095","57b81ed5ef8fb51485566096"]}})
+
+db.latest.update({_id:ObjectId("57b03986ef8fb51485566093")},{$set:{"likes_count":2,"liked_by":[ "57b81e70ef8fb51485566095","57b81ed5ef8fb51485566096"]}})
+
+db.news.update({_id:ObjectId("57b039a5ef8fb51485566094")},{$set:{"likes_count":2,"liked_by":[ "57b81e70ef8fb51485566095","57b81ed5ef8fb51485566096"]}})
+
+db.health.update({_id:ObjectId("57aaadef267477197c7f661e")},{$set:{"likes_count":2,"liked_by":[ "57b81e70ef8fb51485566095","57b81ed5ef8fb51485566096"]}})
+
+
+Find favorites & favorite_categories by user_id
+
+db.users.find({_id:ObjectId("57b81e70ef8fb51485566095")},{favorites:1,favorite_categories:1})
+db.users.find({_id:ObjectId("57b81e70ef8fb51485566095")},{favorites:1})
+
+add specific element based on a user
+db.users.update({_id:ObjectId("57b81e70ef8fb51485566095")},{$push:{"favorites":"57b0396def8fb51485566092"}})
+
+remove a specific element based on a user
+db.users.update({_id:ObjectId("57b81e70ef8fb51485566095")},{ $pull: { favorites: "57b0396def8fb51485566092" } })
