@@ -15,7 +15,7 @@
     "express": "~4.13.4",
     "jade": "~1.11.0",
     "mongodb": "^2.2.5",
-    "morgan": "~1.7.0",
+    "morgan": "~1.10.0",
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
